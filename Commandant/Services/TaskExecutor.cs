@@ -13,13 +13,13 @@ public static class TaskExecutor
         if (_filesList.Count == 0)
         {
             logger.LogInformation("Очередь пуста");
+            
             return new TaskResponse();
         }
         
         logger.LogInformation("Получение файла из директории");
         
-        var file = _filesList.Dequeue();
-        StreamReader sr = new StreamReader(file);
+        StreamReader sr = new StreamReader(_filesList.Dequeue());
 
         return new TaskResponse
         {
