@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Commandant", "Commandant\Commandant.csproj", "{7E60A7C9-05F3-49BA-828C-1B9E66FE1B24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Soldier", "Soldier\Soldier.csproj", "{8761C3F3-45F1-4AE6-968E-65D9234F98D7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E60A7C9-05F3-49BA-828C-1B9E66FE1B24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E60A7C9-05F3-49BA-828C-1B9E66FE1B24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E60A7C9-05F3-49BA-828C-1B9E66FE1B24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E60A7C9-05F3-49BA-828C-1B9E66FE1B24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8761C3F3-45F1-4AE6-968E-65D9234F98D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8761C3F3-45F1-4AE6-968E-65D9234F98D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8761C3F3-45F1-4AE6-968E-65D9234F98D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8761C3F3-45F1-4AE6-968E-65D9234F98D7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
